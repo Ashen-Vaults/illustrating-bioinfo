@@ -5,9 +5,6 @@ def generate_string(N, alphabet='ACGT'):
     return ''.join([random.choice(alphabet) for i in range(N)])
 
 
-
-
-
 dna = generate_string(10)
 pair = 'CG'
 
